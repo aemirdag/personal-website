@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Alptuğ Emirdağ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5f4d9f2785.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/site.webmanifest">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about-me.css">
+    <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+	<div class="app">
+		<aside class="sidebar">
+            <nav class="container d-flex flex-column justify-content-between h-100">
+                <div class="row navbar-header">
+                    <div class="navbar-name-photo d-flex flex-column align-items-center col">
+                        <img class="side-img mb-4" src="assets/images/personal/photo-face-small.jpg">
+                        <h1 class="navbar-header-name">Ali Alptuğ Emirdağ</h1>
+                    </div>
+                </div>
+                <div class="row navbar-menu">
+                    <div class="col">
+                        <div class="d-flex flex-column align-items-center menu">
+                            <a href="#home" class="menu-item is-active">Home</a>
+                            <a href="#about-me" class="menu-item">About</a>
+                            <a href="#resume" class="menu-item">Resume</a>
+                            <a href="#contact" class="menu-item">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row navbar-contact">
+                    <div class="col d-flex justify-content-center">
+                        <ul class="navbar-contact-list">
+                            <li class="pb-4"><a href="https://github.com/aemirdag"><i class="social-icon fa-brands fa-github fa-xl" style="color: #00adb5;"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/ali-alptu%C4%9F-emirda%C4%9F-a9448619b/"><i class="social-icon fa-brands fa-linkedin fa-xl" style="color: #00adb5;"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+		</aside>
+
+        <aside class="navbar">
+            <nav class="container-fluid p-0 m-0">
+                <div class="row navbar-flex-container d-flex flex-row justify-content-center align-items-center">
+                    <div class="col navbar-name d-flex flex-row justify-content-start align-items-center">
+                        <h1 class="navbar-header-name text-nowrap">Ali Alptuğ Emirdağ</h1>
+                    </div>
+                    <div class="col navbar-icons d-flex flex-row justify-content-end align-items-center">
+                        <ul class="navbar-contact-list">
+                            <li><a href="https://github.com/aemirdag"><i class="social-icon fa-brands fa-github fa-lg" style="color: #00adb5;"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/ali-alptu%C4%9F-emirda%C4%9F-a9448619b/"><i class="social-icon fa-brands fa-linkedin fa-lg" style="color: #00adb5;"></i></a></li>
+                        </ul>
+                        <div class="menu-toggle" onclick="burgerClicked(this)">
+                            <div class="hamburger" >
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="navbar-phone-menu">
+                        <div class="col">
+                            <div class="d-flex flex-column justify-content-between align-items-center flex-phone-menu">
+                                <a href="#home" class="menu-item is-active">Home</a>
+                                <a href="#about-me" class="menu-item">About</a>
+                                <a href="#resume" class="menu-item">Resume</a>
+                                <a href="#contact" class="menu-item">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+		</aside>
+
+		<main class="content">
+            <div class="hero-bg parallax bg-img"></div>
+            <section id="home">
+                <h2>Welcome</h2>
+                <h1 class="typewrite home-typewriter-title" data-type='[ "I&lsquo;m Ali Alptuğ Emirdağ.", "I&lsquo;m a Software Engineer.", "I&lsquo;m a Full Stack Developer."]'></h1>
+                <span class="wrap"></span>
+                <p>based on  Ankara, Turkey.</p>
+            </section>
+        
+            <section id="about-me">
+                <div class="container-fluid">
+                    <h2 class="text-center pb-5 section-title">About Me</h2>
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-8 col-xl-9 detail">
+                            <h2 class="title pb-4">I'm <span id="in-text-primary">Ali Alptuğ Emirdağ</span>, a Software Engineer</h2>
+                            <p class="mb-0 text-white-50">
+                                I graduated from electrical and electronics engineering. To become a software engineer, after graduation, I enrolled on scientific preparation program on the university I graduated.
+                                In a nutshell, scientific preparation program is a subset of Bachelor's Degree Computer Science program. It consist of five courses, which are,
+                                Data Structures, Algorithms, Computer Architecture, Database Management Systems and Operating Systems. Currently, I am enrolled on master's degree Computer Science Program (with theses)
+                                and also working as a C++ Developer (embedded software). I aim to improve myself on web development, espacially on backend development.
+
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 col-xl-3 info">
+                            <ul>
+                                <li class="info-item"><p><strong>Name:</strong> Ali Alptuğ Emirdağ</p></li>
+                                <li class="info-item"><p><strong>Email:</strong> alialptugemirdag@gmail.com</p></li>
+                                <li class="info-item"><p><strong>Age:</strong> 24</p></li>
+                                <li class="info-item"><p><strong>From:</strong> Eskişehir, Turkey</p></li>
+                                <li class="info-item download-cv"><a href="./assets/AliAlptuğEmirdağCVEnWithPhoto.pdf">Download CV</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section id="resume">
+                <div class="container">
+                    <h2 class="text-center pb-5  section-title">Resume</h2>
+                    <div class="row">
+                        <div class="col education">
+                            <p class="pb-2">Education</p>
+                            <div class="rounded p-4 mb-4 bg-dark">
+                                <p class="badge in-bg-primary text-2 fw-400">09.2022 - 06.2025</p>
+                                <h3 class="text-5 text-white">Computer Engineering</h3>
+                                <p id="in-text-primary">Master of Science, Hacettepe University</p>
+                                <p class="mb-0 text-white-50">Graduate School of Science and Engineering</p>
+                            </div>
+                            <div class="rounded p-4 mb-4 bg-dark">
+                                <p class="badge in-bg-primary text-2 fw-400">09.2021 – 08.2022</p>
+                                <h3 class="text-5 text-white">Computer Engineering</h3>
+                                <p id="in-text-primary">Master of Science, TOBB University of Economics and Technology</p>
+                                <p class="mb-0 text-white-50">Graduate School of Engineering and Science <br/> Scientific Preparation Program</p>
+                            </div>
+                            <div class="rounded p-4 mb-4 bg-dark">
+                                <p class="badge in-bg-primary text-2 fw-400">09.2017 – 05.2021</p>
+                                <h3 class="text-5 text-white">Electrical and Electronics Engineering</h3>
+                                <p id="in-text-primary">Bachelor of Science, TOBB University of Economics and Technology</p>
+                                <p class="mb-0 text-white-50">Faculty of Engineering <br/> 3.40/4.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col work">
+                            <p class="pt-4 pb-2">Work Experience</p>
+                            <div class="rounded p-4 mb-4 bg-dark">
+                                <p class="badge in-bg-primary text-2 fw-400">10.2021 - 08.2022</p>
+                                <h3 class="text-5 text-white">Software Engineer</h3>
+                                <p id="in-text-primary">MilSOFT Software Technologies</p>
+                                <p class="mb-0 text-white-50">
+                                    <ul>
+                                        <li>
+                                            Participated in development, maintenance and testing activities of Tactical Data
+                                            Link processor application using C++ and Java with DDS based publish-subscribe
+                                            communication.
+                                        </li>
+                                        <li>
+                                            Worked on modernization of legacy systems, including language standards and
+                                            architectural design changes.                                            
+                                        </li>
+                                        <li>
+                                            Supported applications on Linux and Windows operating systems.                                        
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="rounded p-4 mb-4 bg-dark">
+                                <p class="badge in-bg-primary text-2 fw-400">06.2021 – 10.2021</p>
+                                <h3 class="text-5 text-white">System/Test Engineer</h3>
+                                <p id="in-text-primary">MilSOFT Software Technologies</p>
+                                <p class="mb-0 text-white-50">
+                                    <ul>
+                                        <li>
+                                            Participated in testing activities, such as creating automated tests, of Tactical Data
+                                            Link processor application using internal testing tools.
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="rounded p-4 mb-4 bg-dark">
+                                <p class="badge in-bg-primary text-2 fw-400">01.2021 - 04.2021</p>
+                                <h3 class="text-5 text-white">Embedded Systems Engineer Intern</h3>
+                                <p id="in-text-primary">ANOVA R&D Technologies Industry And Trade Inc. Co.</p>
+                                <p class="mb-0 text-white-50">
+                                    <ul>
+                                        <li>
+                                            Designed a user interface with PyQt5 that configures and runs a board with a
+                                            microcontroller via using the serial port.
+                                        </li>
+                                        <li>
+                                            Designed a motor driver circuit that can be controlled via a microcontroller.
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="rounded p-4 mb-4 bg-dark">
+                                <p class="badge in-bg-primary text-2 fw-400">01.2020 – 03.2020</p>
+                                <h3 class="text-5 text-white">Algorithm Developer Intern</h3>
+                                <p id="in-text-primary">Esen System Integration</p>
+                                <p class="mb-0 text-white-50">
+                                    <ul>
+                                        <li>
+                                            Worked on adapting the array signal processing algorithms on moving platforms on MATLAB.
+                                        </li>
+                                        <li>
+                                            Designed a simulation that models the operation of direction-finding algorithms on a moving platform and created a user interface for this simulation using MATLAB App Designer.
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="rounded p-4 mb-4 bg-dark">
+                                <p class="badge in-bg-primary text-2 fw-400">04.2019 – 08.2019</p>
+                                <h3 class="text-5 text-white">Embedded Software Engineer Intern</h3>
+                                <p id="in-text-primary">ROKETSAN A.Ş.</p>
+                                <p class="mb-0 text-white-50">
+                                    <ul>
+                                        <li>
+                                            Designed the embedded software of the board that has the STM32 microcontroller on it using the C programming language, STM32CubeMX program and HAL library from the STM32 family.
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="container overflow-hidden">
+                        <p class="pt-4 pb-2">Skills</p>
+                        <div class="row pb-2 gy-3">
+                            <div class="col-12 col-lg-6">
+                                <div class="rounded p-3 bg-dark mb-0 text-white">C++, C++ 11, C++ 14, C++ 17</div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <p class="rounded p-3 bg-dark mb-0 text-white">C</p>
+                            </div>
+                        </div>
+                        <div class="row py-2 gy-3">
+                            <div class="col-12 col-lg-6">
+                                <p class="rounded p-3 bg-dark mb-0 text-white">Java</p>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <p class="rounded p-3 bg-dark mb-0 text-white">Python</p>
+                            </div>
+                        </div>
+                        <div class="row py-2 gy-3">
+                            <div class="col-12 col-lg-6">
+                                <p class="rounded p-3 bg-dark mb-0 text-white">MATLAB</p>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <p class="rounded p-3 bg-dark mb-0 text-white">HTML, CSS, Javascript</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container overflow-hidden">
+                        <p class="pt-4 pb-2">Languages</p>
+                        <div class="row pb-2 gy-3">
+                            <div class="col-12 col-lg-6">
+                                <div class="rounded p-3 bg-dark mb-0 text-white">Turkish, Native proficiency</div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <p class="rounded p-3 bg-dark mb-0 text-white">English, B2, TOEFL ITP: 503</p>
+                            </div>
+                        </div>
+                        <div class="row py-2 gy-3">
+                            <div class="col-12 col-lg-6">
+                                <p class="rounded p-3 bg-dark mb-0 text-white">German, A2</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container overflow-hidden">
+                        <p class="pt-4 pb-2">Interests</p>
+                        <div class="row pb-2 gy-3">
+                            <div class="col-12 col-lg-6">
+                                <div class="rounded p-3 bg-dark mb-0 text-white">Swimming</div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <p class="rounded p-3 bg-dark mb-0 text-white">Diving</p>
+                            </div>
+                        </div>
+                        <div class="row py-2 gy-3">
+                            <div class="col-12 col-lg-6">
+                                <p class="rounded p-3 bg-dark mb-0 text-white">Cycling</p>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <p class="rounded p-3 bg-dark mb-0 text-white">Travelling</p>
+                            </div>
+                        </div>
+                        <div class="row py-2 gy-3">
+                            <div class="col-12 col-lg-6">
+                                <p class="rounded p-3 bg-dark mb-0 text-white">Listening to music</p>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <p class="rounded p-3 bg-dark mb-0 text-white">Making tank and plane models</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section id="contact">
+                <div class="container-fluid">
+                    <h2 class="text-center pb-5 section-title">Contact Me</h2>
+                    <div class="container pt-5">
+                        <div class="row contact-flex-container">
+                            <div class="col-lg-6 contact-info">
+                                <div class="box">
+                                    <div class="icon"><i class="fa-solid fa-envelope" style="color: #00adb5;"></i></div>
+                                    <div class="text">
+                                        <h3>Email</h3>
+                                        <p>alialptugemirdag@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 contact-form">
+                                <form id="form-submit-email">
+                                    <h4 class="text-nowrap contact-form-title">Send Me a Message</h4>
+                                    <div class="input-box">
+                                        <input id="form-fullname" type="text" name="" required="required" placeholder="Full Name">
+                                    </div>
+                                    <div class="input-box">
+                                        <textarea id="form-msg" required="required" placeholder="Type your message ..."></textarea>
+                                    </div>
+                                    <div class="input-box">
+                                        <input id="form-button" type="submit" value="Submit" required="Send">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="footer" class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center text-lg-start">
+                            <p class="mb-lg-0">Copyright © 2023 <a href="#home" id="in-text-primary" class="fw-500">Ali Alptuğ Emirdağ</a>. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+		</main>
+	</div>
+    
+    <script src="js/hamburger.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+</html>

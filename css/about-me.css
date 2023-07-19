@@ -1,0 +1,46 @@
+#about-me {
+    padding: 5rem 1rem;
+    background-color: #464E5C;
+    position: relative;
+    z-index: 3;
+}
+
+#about-me .title {
+    font-weight: 500;
+    font-size: 17pt;
+}
+
+#about-me .detail {
+    padding: 2rem 2rem;
+    padding-left: 2rem;
+}
+
+#about-me .info {
+    padding: 2rem 0rem;
+}
+
+#about-me .info > ul {
+    list-style: none;
+}
+
+#about-me .info .info-item {
+    padding: 0.1rem 0rem;
+}
+
+#about-me .info .download-cv {
+    padding: 1.2rem 0rem;
+}
+
+#about-me .info a {
+    color: #EEEEEE;
+    background-color: #00ADB5;
+    padding: 1rem 2.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#about-me .info a:hover {
+    background-color: #0388B8;
+    transition: 0.1s linear;
+    text-decoration: none;
+}

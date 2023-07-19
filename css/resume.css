@@ -1,0 +1,10 @@
+#resume {
+    padding: 5rem 1rem;
+    background-color: #393E46;
+    position: relative;
+    z-index: 3;
+}
+
+#resume li {
+    padding-bottom: 1rem;
+}

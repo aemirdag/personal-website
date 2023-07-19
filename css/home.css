@@ -1,0 +1,42 @@
+#home {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	align-items: center;
+	padding: 15rem 0rem;
+	z-index: 3;
+	text-align: center;
+}
+
+#home .home-typewriter-title .wrap {
+	color: #00ADB5;
+}
+
+#home .home-typewriter-title {
+	font-size: 35pt;
+	white-space:nowrap;
+}
+
+/* The typing effect */
+/*
+@keyframes typing {
+	from { width: 0 }
+	to { width: 71% }
+}
+*/
+/* The typewriter cursor effect */
+/*
+@keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: orange }
+}
+*/
+
+#home > h2 {
+	font-size: 30pt;
+}
+
+#home > h1, #home > h2, #home > h3, #home > p {
+	padding: 1rem 0rem;
+}

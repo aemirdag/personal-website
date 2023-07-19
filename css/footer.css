@@ -1,0 +1,11 @@
+#footer {
+    padding: 2rem 1rem;
+    background-color: #30343B;
+    display: flex;
+    position: relative;
+    z-index: 4;
+}
+
+#footer a {
+    text-decoration: none;
+}
